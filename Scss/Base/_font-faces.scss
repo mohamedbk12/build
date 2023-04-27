@@ -1,0 +1,52 @@
+$fonts-path: "../Fonts/";
+$fonts-path-raleway: "#{$fonts-path}/Raleway";
+$fonts-path-quicksand: "#{$fonts-path}/Quicksand";
+
+// Raleway Regular 
+@font-face {
+    font-family: 'Raleway, sans-serif';
+    src: url('#{$fonts-path-raleway}/Raleway-Regular.ttf') format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+// Raleway Bold
+@font-face {
+    font-family: 'Raleway, sans-serif';
+    src: url('#{$fonts-path-raleway}/Raleway-Bold.ttf') format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+//Raleway ExtraBold
+@font-face {
+    font-family: 'Raleway , sans-serif';
+    src: url('#{$fonts-path-raleway}/Raleway-ExtraBold.ttf') format("truetype");
+    font-style: normal;
+    font-weight: 800;
+}
+
+//Raleway Black
+@font-face {
+    font-family: 'Raleway, sans-serif';
+    src: url('#{$fonts-path-raleway}/Raleway-Black.ttf') format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
+
+
+// Quicksand Regular 
+@font-face {
+    font-family: 'Quicksand, sans-serif';
+    src: url('#{$fonts-path-quicksand}/Quicksand-Regular.ttf') format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+// Quicksand Bold
+@font-face {
+    font-family: 'Quicksand, sans-serif';
+    src: url('#{$fonts-path-quicksand}/Quicksand-Bold.ttf') format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}

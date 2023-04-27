@@ -1,0 +1,96 @@
+/* ------------------------------------
+  Font-weight
+ ------------------------------------ */
+ $font-extra-light: 200;
+ $font-weight-light: 300;
+ $font-weight-regular: 400;
+ $font-weight-medium: 500;
+ $font-weight-semi-bold: 600;
+ $font-weight-bold: 700;
+ $font-weight-extra-bold: 800;
+ $font-black: 900;
+
+ /* ------------------------------------
+   Font-styles
+  ------------------------------------ */
+$font-style-normal: normal;
+$font-style-italic: italic;
+
+/* ------------------------------------
+   letter-spacing
+  ------------------------------------ */
+  $letter-spacing-normal: 0;
+
+/* ------------------------------------
+  Base Variables
+  ------------------------------------ */
+
+  $font-family-source: 'Quicksand, sans-serif';
+  $font-family-base: $font-family-source;
+  $font-family-secondary: 'Raleway, sans-serif';
+
+  /* ------------------------------------
+  Desktop Line Heights
+  ------------------------------------ */
+
+  $line-height-small-0 :11.74px;
+  $line-height-small-1 :14.09px;
+  $line-height-small-2 :16.44px;
+  $line-height-small-2-0 :17.5px;
+  $line-height-regular-0 :18.78px;
+  $line-height-regular-02 :18px;
+  $line-height-regular-01 :20px; 
+  $line-height-regular :24px; 
+  $line-height-regular-3 :28px; 
+  $line-height-regular-2 :27.2px; 
+  $line-height-regular-1 :32px; 
+  $line-height-medium-0 :21.13px;
+  $line-height-medium-1-0 :23.48px;
+  $line-height-medium-1-1 :30px;
+  $line-height-medium-2: 25px; //22px
+  $line-height-medium-3-0 :28.18px;
+  $line-height-medium-3-1 :36px;
+  $line-height-medium-4 :32.78px;
+  $line-height-large-0 :56.35px;
+  $line-height-large-1 :91.57px;
+
+
+/* ------------------------------------
+   Font-size
+  ------------------------------------ */
+
+  $font-size-small-0 :10px;
+  $font-size-small-1 :12px;
+  $font-size-small-2 :14px;
+  $font-size-regular :16px;
+  $font-size-medium-0 :18px;
+  $font-size-medium-1 :20px;
+  $font-size-medium-2 :22px;
+  $font-size-medium-3 :24px;
+  $font-size-medium-4 :28px;
+  $font-size-large-0 :48px;
+  $font-size-large-1 :78px;
+ 
+
+  /* ------------------------------------
+    Mobile Line Heights
+  ------------------------------------ */
+
+
+$line-height-large-1-mobile :37.57px;
+$line-height-medium-1-1-mobile:28.8px;
+$line-height-medium-1-0-mobile:21.13px;
+$line-height-medium-1-mobile:21px;
+$line-height-medium-2-mobile:18.78px;
+$line-height-medium-3-mobile:17.5px;
+$line-height-medium-0-mobile:16.44px;
+
+/* ------------------------------------
+   Mobile Font-size
+  ------------------------------------ */
+
+
+  $font-size-large-1-mobile :32px;
+  $font-size-medium-1-mobile:18px;
+  $font-size-medium-2-mobile:16px;
+  $font-size-medium-0-mobile:14px;

@@ -1,0 +1,49 @@
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/tables";
+@import "../../node_modules/bootstrap/scss/popover";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/transitions";
+@import "../../node_modules/bootstrap/scss/forms";
+@import "../../node_modules/bootstrap/scss/nav";
+@import "../../node_modules/bootstrap/scss/card";
+
+@include media-breakpoint-between(tns, md){
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -$form-grid-gutter-width-mobile * .5;
+    margin-left: -$form-grid-gutter-width-mobile * .5;
+  
+    > .col,
+    > [class*="col-"] {
+      padding-right: $form-grid-gutter-width-mobile * .5;
+      padding-left: $form-grid-gutter-width-mobile * .5;
+    }
+  }
+  /* We make it this way because the container have 20px padding on the right and left sides but the gutter-width between elements should be 16px */
+  .container, [class*="container-"]{
+    padding-right: $grid-gutter-width-mobile / 2 + 12;
+    padding-left: $grid-gutter-width-mobile / 2 + 12;
+  }
+  .row{
+    margin-right: -1 * $grid-gutter-width-mobile / 2;
+    margin-left: -1*  $grid-gutter-width-mobile / 2;
+  }
+  .row > .col,
+  .row > [class*="col-"] {
+    padding-right: $grid-gutter-width-mobile / 2;
+    padding-left: $grid-gutter-width-mobile / 2;
+  }
+
+  .row.no-gutters > .col,
+  .row.no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+

@@ -1,0 +1,58 @@
+/* ------------------------------------
+1. Vendors & NPM components
+------------------------------------ */
+
+@import "../node_modules/slick-carousel/slick/slick.scss";
+//@import "../node_modules/orejime/dist/orejime.scss";
+@import "../node_modules/jquery-ui/themes/base/datepicker";
+
+/* ------------------------------------
+2. Basics
+------------------------------------ */
+@import "Base/variables";
+@import "Base/bootstrap";
+@import "Base/bootstrap-grid";
+@import "Base/colors";
+@import "Base/development-utilities";
+@import "Base/font-faces";
+@import "Base/font-variables-and-settings";
+@import "Base/mixins";
+@import "Base/z-indeces";
+
+/* ------------------------------------
+3. Functions
+------------------------------------ */
+@import "Functions/shade-and-tint";
+@import "Functions/slick-theme";
+
+/* ------------------------------------
+4. Globals
+------------------------------------ */
+
+@import "Globals/texts";
+
+
+/* ------------------------------------
+5. Partials
+------------------------------------ */
+
+
+/* ------------------------------------
+6. Conditionals
+------------------------------------ */
+@import "Conditionals/only-ie";
+@import "Conditionals/only-ipad";
+@import "Conditionals/only-print";
+
+/* ------------------------------------
+ 7. Content Elements
+ ------------------------------------ */
+
+ @import "ContentElements/ce-texts";
+
+ 
+.typo3-login {
+    background-size: contain;
+    background-position: center;
+    background-color: red;
+}
